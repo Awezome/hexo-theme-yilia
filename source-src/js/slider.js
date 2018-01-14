@@ -135,23 +135,6 @@ function init() {
 		handleSearch(val)
     })
 
-	window.fetch(window.yiliaConfig.root + 'content.json?t=' + (+ new Date()), {
-		method: 'get',
-	}).then((res) => {
-		return res.json()
-	}).then((data) => {
-		data.forEach((em) => {
-			em.isShow = true
-		})
-		app.$set('items', data)
-		// 搜索
-		let searchWording = (window.localStorage && window.localStorage.getItem(localSearchKey)) || ''
-		app.$set('search', searchWording)
-		searchWording !== '' && handleSearch(searchWording)
-	}).catch((err) => {
-		app.$set('jsonFail', true)
-	});
-
 	// 隐藏
 	document.querySelector('#container').onclick = (e) => {
 		if (app.isShow) {
