@@ -55,8 +55,8 @@
 }
 
 .article {
-  margin-left: 50px;
-  margin-right: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
   position: relative;
   border-bottom: 4px solid #ddd;
   background: #fff;
@@ -71,7 +71,10 @@
     visibility: hidden;
   } */
   img{
-    max-width: 100%;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
   }
 }
 
@@ -89,14 +92,16 @@
 }
 
 .article-header{
-  padding: 30px 0px 15px 25px;
-  padding-left: 7.6923%;
+    padding: 30px 0px 15px 7.6923%;
+}
+
+.article-seg{
+    border-bottom: 1px solid #ddd;
 }
 
 .article-meta{
   width: 150px;
-  font-size: 14;
-  text-align: right;
+  font-size: 14px;
   position: absolute;
   right: 0;
   top: 23px;
@@ -141,7 +146,8 @@
 	padding-top: 20px;
 	margin: 30px $articlePadding 0 $articlePadding;
   min-height: 72px;
-  border-top: 1px solid #ddd;
+    border-top: 1px #ddd dashed;
+
 }
 .article-info-post.article-info{
 	padding: 0;
