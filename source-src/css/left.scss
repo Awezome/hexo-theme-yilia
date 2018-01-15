@@ -1,6 +1,6 @@
 .left-col {
-	background: #fff;
-	width: 300px;
+	background: rgba(70,88,111,0.8);
+	width: 260px;
 	position:fixed;
 	opacity:1;
 	transition:all .2s ease-in;
@@ -27,9 +27,9 @@
 		position: relative;
 		border-bottom: 1px solid color-border;
 		a {
-			color: #696969;
+			color: #fff;
 			&:hover {
-				color: #B0A0AA;
+				color: #FF706C;
 			}
 		}
 		.header-subtitle{
