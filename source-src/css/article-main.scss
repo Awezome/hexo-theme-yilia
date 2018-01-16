@@ -91,6 +91,26 @@
   transition: color 0.3s;
 }
 
+.article-more-read{
+  margin-top:10px;
+  text-transform: capitalize;
+  display: inline-block;
+  background: #272F38;
+  padding: 10px 15px;
+  color: #FFF;
+  font-size: 0.85em;
+  line-height: 1;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+
+.article-more-read:hover {
+  background: #FF706C;
+  color: #FFF;
+  text-decoration: none;
+}
+
 .article-header{
     padding: 30px 0px 15px 7.6923%;
 }
@@ -144,7 +164,7 @@
 }
 .article-info-index.article-info{
 	padding-top: 20px;
-	margin: 30px $articlePadding 0 $articlePadding;
+	margin: 20px $articlePadding 0 $articlePadding;
   min-height: 72px;
     border-top: 1px #ddd dashed;
 

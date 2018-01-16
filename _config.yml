@@ -33,9 +33,7 @@ root: /
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: ''
-# 文章卡片右下角常驻链接，不需要请设置为false
-show_all_link: '展开全文'
+excerpt_link: 'Continue Reading'
 # 数学公式
 mathjax: false
 # 是否在新窗口打开链接
@@ -99,8 +97,6 @@ gitment_oauth:
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
-  # 头像上面的背景颜色
-  header: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
