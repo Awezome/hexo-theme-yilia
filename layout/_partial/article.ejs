@@ -16,7 +16,7 @@
             <% if (post.excerpt && index){ %>
             <%- post.excerpt %>
             <% if (theme.excerpt_link) { %>
-            <a class="article-more-read" href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>
+            <!--<a class="article-more-read" href="<%- url_for(post.path) %>#more"><%= theme.excerpt_link %></a>-->
             <% } %>
             <% } else { %>
             <%- post.content %>
@@ -65,6 +65,13 @@
             <% } %>
             <%- partial('post/tag') %>
             <%- partial('post/category') %>
+
+            <% if (index){ %>
+            <p class="article-more-link">
+                <a class="article-more-a" href="<%- url_for(post.path) %>"><%= theme.show_all_link %> 阅读全文</a>
+            </p>
+            <% } %>
+
 
             <% if (!index && theme.share_jia){ %>
             <%- partial('post/share') %>
