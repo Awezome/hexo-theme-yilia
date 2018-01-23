@@ -13,11 +13,6 @@ function init() {
         largeHeader = document.getElementById('container');
         largeHeader.style.height = height+'px';
 
-        canvas = document.getElementById('anm-canvas');
-        canvas.width = width;
-        canvas.height = height;
-        ctx = canvas.getContext('2d');
-
         // create particles
         circles = [];
         for(var x = 0; x < width*0.5; x++) {
@@ -42,8 +37,6 @@ function init() {
         width = window.innerWidth;
         height = window.innerHeight;
         largeHeader.style.height = height+'px';
-        canvas.width = width;
-        canvas.height = height;
     }
 
     function animate() {

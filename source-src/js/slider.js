@@ -1,5 +1,3 @@
-// 动画
-import Anm from './anm'
 // 浏览器判断
 import Browser from './browser'
 // Q 基础库
@@ -179,8 +177,5 @@ function init() {
 }
 
 init()
-if (!isMobile) {
-	Anm.init()
-}
 
 module.exports = {}
