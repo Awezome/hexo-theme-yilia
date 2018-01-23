@@ -55,8 +55,8 @@
 }
 
 .article {
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: $contentMarginWidth;
+  margin-right: $contentMarginWidth;
   position: relative;
   border-bottom: 4px solid #ddd;
   background: #fff;
