@@ -34,7 +34,8 @@ html, body, #container {
 }
 
 .body-wrap {
-    margin-bottom: 80px;
+    margin-left: $contentMarginWidth;
+    margin-right: $contentMarginWidth;
 }
 
 .mid-col {
